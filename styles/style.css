@@ -1,0 +1,432 @@
+
+
+html,body{
+    margin: 0;
+    background-color:#121212 ;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;   
+}
+a{
+    text-decoration: none;
+}
+hr{ 
+    margin: 50px auto;
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 80px;
+  }
+/*menu top  */
+.navbar{
+margin: 0;
+height: 50px; 
+width: auto;
+background-color:#191919;
+text-align: center;
+
+
+}
+.logo{display: inline-block;
+    width: 42px;
+    position:absolute;
+    left: 15px;
+    margin-top: 5px;
+}
+.plus{
+    position:absolute;
+    left: 60px;
+    margin-top: 15px;
+}
+.nav-elem{
+    display: inline-block;
+    padding: 13px 0;
+    color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Oxanium', cursive;
+
+}
+.nav-elem:hover{
+ color:#FFD700;
+ opacity: 50%;
+ border-radius: 10px;   
+ fill-opacity: inherit;
+height: 25px;
+
+}
+
+/*    side fixed menu      */
+.menu-side{
+    position: fixed;
+    top: 38%;
+    right: 1%;
+    text-align: center;
+    background-color: #121212 ;
+    border-radius: 10px;    
+    width: 70px;
+   
+}
+.elm{
+    display: block;
+    margin-bottom:20px;
+    color: #fff;
+}
+.elm:hover{
+    color: #FFD700;
+}
+
+.menu-side a:first-child:hover .elm::after{
+    display: block;
+    content: "Home";
+    color: #FFD700;
+    font-size: 20px;
+  
+
+}
+.menu-side a:nth-child(2):hover .elm::after{
+    display: block;
+    content: "Work shop";
+    color: gold;
+    font-size: 20px;
+
+
+}
+.menu-side a:nth-child(3):hover .elm::after{
+    display: block;
+    content: "News & Updates";
+    color: gold;
+    font-size: 20px;
+
+
+}
+.menu-side a:last-child:hover .elm::after{
+    display: block;
+    content: "Contact Us";
+    color: gold;
+    font-size: 20px;
+
+
+}
+.active{
+    color:#4C3F91;
+    
+    }
+
+/* gridss*/
+.grid80{
+    width: 80%;
+    margin: 0 auto;
+    }
+/*image float left*/
+.imgss {
+    width: 20%;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    clear: right;
+}
+/*image float right*/
+.imgsd {
+    display: block;
+    width: 25%;
+    border-radius: 20%;
+    margin-left: 20px;
+    position: relative;
+    float: right;
+    clear: left;
+}
+/*grid half*/
+.grid50{ display: inline-block;
+width:40%;
+margin-left:30px;
+
+}
+.bb{
+    margin-top: 50px;
+}
+.dd{
+    position: relative;
+    float: left;
+    clear: right;
+}
+/*  main      */
+#titre{
+
+    margin-top: 60px ;
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    font-family: 'la_macchinaregular' ;
+    }
+
+ .lidiv{
+        display: inline-block;
+        width:50px;
+        margin-right:1px;
+        border-radius: 5px;
+        height:20px;
+        background-color: purple;
+    }
+.video{
+display: block;
+margin: 0 auto;
+border-radius: 20px;
+}
+
+#table1{
+    border:1px solid black;
+    width:450px;
+    margin-right: 150px;
+}
+#table1 tr:nth-child(1) th:first-child{
+    background-color: purple;
+}
+#table1 tr:nth-child(1) th:last-child{
+    background-color: #4C3F91;
+}
+
+#table1 tr td{
+    background-color: #D47AE8;
+    
+    
+}
+
+ul li {
+
+    list-style-type: none;
+}
+
+
+
+
+/* car image and button inside*/
+.imagebig{
+    position: relative;
+}
+#btn{
+position: absolute;
+top: 40%;
+left: 50%;
+height: 70px;
+width: 120px;
+background-color: transparent;
+border-radius: 20px;
+border-width: 10px;
+color: #4C3F91;
+font-weight: 600;
+font-size: 20px;
+
+}
+
+
+/*footer and elements inside*/
+#table2{
+    width:70%;
+ position: relative;
+left: 2%;
+top:10%;   
+margin: 0;
+}
+#table2 tr>td{
+    padding-bottom: 1em;
+
+}
+#table2 tr td a{
+    color: #fff;
+    
+}
+#table2 tr td a:hover{
+
+    text-decoration: underline;
+    text-decoration-thickness: 8px;
+    
+}
+footer{position: relative;
+height: 150px;
+background-color: #191919;
+
+}
+.socialmd{
+    position: absolute;
+right:1%;
+top: 13%;
+
+
+}
+.author{
+    position: absolute;
+    bottom: 2%;
+    right: 45%;
+}
+
+ /* gif*/   
+.gridmax{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 40px; 
+}
+
+
+/*page workshop*/
+.grid20{ display: inline-block;   
+    width: 20%;
+    margin-right: 25px;
+    margin-bottom:50px;
+    height: 20%;
+    text-align: center;
+}
+.grid20 p{
+    text-align: left;
+}
+.grid20 h2{
+    margin-bottom: 50px;
+}
+.cars{
+    width:230px;
+    height:150px;
+}
+.cars:hover{
+    transform-origin: left top;
+    animation: scale 2000ms ease-in-out forwards;;}
+    @keyframes scale {
+        to {
+          transform: scale(1.2);
+        }
+}
+/*news page*/
+.news{
+    margin-bottom: 100px;
+}
+.imagef{
+   
+    position: relative;
+   float: left;
+    clear: right;
+     width: 100px;
+     margin-right: 20px;
+
+}
+.news p {
+    display: inline;
+}
+.news button{
+    display: block  ;
+    position: relative;
+    left: 60%;
+}
+#more {display: none;}
+/*contact us*/
+
+.centrefield{ 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    margin-bottom: 150px;
+
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+  }
+  input[type=text]:focus,input[type=email]:focus, textarea:focus {
+    outline: none ;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+   
+  }
+  legend{
+    font-size: 24px;
+    color: white;
+    text-shadow:
+     -1px -1px 0 #719ECE,  
+      1px -1px 0 #719ECE,
+      -1px 1px 0 #719ECE,
+       1px 1px 0 #719ECE;
+  }
+  fieldset{
+   
+    border-color:#4C3F91;
+    box-shadow: 0 0 10px #4C3F91;
+  }
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.textme:focus{
+    background-color:#4C3F91;
+    border:none;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*animation    */ 
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4C3F91, 0 0 40px #4C3F91, 0 0 50px #4C3F91, 0 0 60px #4C3F91, 0 0 70px #4C3F91;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #719ECE, 0 0 40px #719ECE, 0 0 50px #719ECE, 0 0 60px #719ECE, 0 0 70px #719ECE, 0 0 80px #719ECE;
+    }
+  }
+  /*titre font*/
+  @font-face {
+    font-family: 'la_macchinaregular';
+    src: url('la_macchina-webfont.woff2') format('woff2'),
+         url('la_macchina-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*success*/
+.bingo{
+    position: relative;
+    left:16%;
+    top: 30%;
+}
